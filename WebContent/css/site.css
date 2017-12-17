@@ -1,0 +1,142 @@
+/* -- default css -- */
+
+* {
+	//border: 1px solid red;
+}
+
+body {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+/* ------------------------------ header --------------------------------- */
+
+header {
+	background: #005387;
+	margin: 0px;
+	color: #FFF;
+}
+
+.btn-special {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 0px;
+	width: 100px;
+	color: #fff;
+	background-color: #0084BA;	
+	border-color: #357ebd;
+	margin: 0px 5px;
+}
+.btn-special:focus,
+.btn-special:active:focus {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+
+.btn-special:hover {
+  color: #fff;
+  background-color: #3071a9;
+  border-color: #285e8e;
+  text-decoration: none;
+}
+
+
+.btn-special:active,
+.btn-special.active {
+  color: #fff;
+  text-decoration: none;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+
+/* ------------------------------------- nav -------------------------------------- */
+#nav {
+	background: #0A3151;
+	border-bottom: 4px solid #69B40F;
+}
+
+/* ------------------------------------ login and registration ----------------------- */
+
+.login {
+	margin: 10px 0px;
+}
+
+.loginLeft {
+	border-right: 1px dotted #ccc;
+}
+
+#loginForm input[type=text], input[type=password], input[type=email] {
+
+	margin: 10px 0px;
+	width: 80%;
+	
+}
+
+.personalInfo input {
+	margin: 10px 0px;
+}
+
+#captcha {
+	margin-left: -5px;
+}
+
+/* ------------------------------------ tags ---------------------------------- */
+.tags ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.tags ul li {
+	display: inline;
+}
+
+.tags ul li a {
+	padding: 3px 5px;
+	margin: 2px 2px 2px 0px;
+	line-height: 1.4;
+	white-space: nowrap;
+	background: #e0eaf1;
+	text-decoration: none;
+}
+
+.tags tr {
+	border-bottom: 1px dotted #E0E0E0;
+}
+
+.tags hr {
+	margin-top: 0px;
+}
+
+.tags h3 {
+	font-size: 13px;
+	margin: 5px 0;
+	color: #C4A2A2;
+}
+
+#tagfilter {
+	margin: 10px 0px 20px 0px;;
+}
+
+.description {
+	font-size: 12px;
+	margin: 5px 0px;
+}
